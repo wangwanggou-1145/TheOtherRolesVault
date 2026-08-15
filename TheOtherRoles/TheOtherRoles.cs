@@ -42,7 +42,6 @@ namespace TheOtherRoles
             Morphling.clearAndReload();
             Camouflager.clearAndReload();
             Hacker.clearAndReload();
-            Energyamplifier.clearAndReload();
             Tracker.clearAndReload();
             Vampire.clearAndReload();
             Snitch.clearAndReload();
@@ -150,7 +149,6 @@ namespace TheOtherRoles
                 { RoleId.Tracker, typeof(RoleBase<Tracker>) },
                 { RoleId.Snitch, typeof(RoleBase<Snitch>) },
                 { RoleId.Spy, typeof(RoleBase<Spy>) },
-                { RoleId.Energyamplifier, typeof(RoleBase<Energyamplifier>) },
                 { RoleId.SecurityGuard, typeof(RoleBase<SecurityGuard>) },
                 { RoleId.NiceGuesser, typeof(RoleBase<NiceGuesser>) },
                 { RoleId.Medium, typeof(RoleBase<Medium>) },
